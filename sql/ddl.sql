@@ -103,7 +103,7 @@ INSERT INTO admins (
 ) VALUES (
     'Juan Pérez García',
     'juan.perez@example.com',
-    'aJrgba1235a@%.', -- Replace with a strong, hashed password
+    '$2y$10$ZD7rJXXsy7UOppvSt26/quGqrI.WfwaaNa55xuTHJoutUjO9flL2a', -- Password en texto plano para pruebas: AeiB#12$34!u
     '+34600123456',
     'CR',
     'ABC123456',
@@ -543,7 +543,8 @@ INSERT INTO customer (
   zip_code,
   birth_date
 ) VALUES
-('Juan Pérez', 'juan.perez@email.com', 'hash1', '8888-1111', 'Costa Rica', 'A1234567', 'es', 'Masculino', 'Calle 1', 'San José', 'San José', '10101', '1990-01-01'),
+('Juan Pérez', 'juan.perez@email.com', '$2y$10$9jXzMbzeaGvyu1./8q.Niu6vuYW69FpiTDTYDKvER6lvx0ZpRQoW2', -- Password en texto plano para pruebas: AeiB#12$34!u
+ '8888-1111', 'Costa Rica', 'A1234567', 'es', 'Masculino', 'Calle 1', 'San José', 'San José', '10101', '1990-01-01'),
 ('María Rodríguez', 'maria.rodriguez@email.com', 'hash2', '8888-2222', 'Costa Rica', 'B2345678', 'es', 'Femenino', 'Calle 2', 'Alajuela', 'Alajuela', '20101', '1985-02-02'),
 ('Carlos Jiménez', 'carlos.jimenez@email.com', 'hash3', '8888-3333', 'Costa Rica', 'C3456789', 'es', 'Masculino', 'Calle 3', 'Cartago', 'Cartago', '30101', '1988-03-03'),
 ('Ana Morales', 'ana.morales@email.com', 'hash4', '8888-4444', 'Costa Rica', 'D4567890', 'es', 'Femenino', 'Calle 4', 'Heredia', 'Heredia', '40101', '1992-04-04'),
