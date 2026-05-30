@@ -8,6 +8,9 @@ E-commerce de venta de Tours Vacacionales
 4. Luego ejecutar en Mysql el Script que viene en la carpeta `/sql/ddl.sql` de este repositorio.
 5. Cambiar el password de la configuracion en el archivo que viene en la carpeta `/php/config/db.php` en la Linea 15, cambiarlo por su password de la Base datos
 6. Si todo salio bien deberias poder abrir en tu navegador estas URL's: [http://localhost/Buke-Tours/admin/auth/login/](http://localhost/Buke-Tours/admin/auth/login/) y [http://localhost/Buke-Tours/](http://localhost/Buke-Tours/)
+7. El usuario administrador es: 
+Usuario Admin: juan.perez@example.com
+Password Admin: AeiB#12$34!u
 
 ## 🔍 Funcionalidades principales
 ### 🧭 Búsqueda de tours
